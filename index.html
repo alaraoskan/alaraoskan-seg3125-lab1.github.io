@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+	<! IMPORTANT to use a CSS file - external >
+	<link href="styles/style.css" rel="stylesheet" type="text/css">
+    <title>Questionnaire</title>
+	
+  </head>
+  
+  <body>
+	<header>	<h1>Survey</h1>	</header>
+	<form id="myform" action="index.php" >
+
+	<h2>What are your thoughts of the UI on this page? <a href="http://bestbuy.ca">Best Buy</a> site?</h2>	
+	<br>
+	<! You should make your image clickable>
+	<a href="http://bestbuy.ca">
+		<img src="images/bestbuyfrontpage.png" alt="http://bestbuy.ca" width="500" height="330">
+	</a>
+	<br>
+	<br>
+	<div class="question1">
+	<h2> Do you like the usability of this page? </h2>
+	<input type = "checkbox" name = "Yes" value ="Yes">Yes<br>
+	<br>
+	<br>
+		
+	</div>	
+		
+	<div class="question">
+		<h2> Which of the items in the list below has affected your experience when browsing the website? </h2>
+		I like:<br>
+		<select id="favorite">
+
+		<option value="Search Bar" selected="selected">Search Bar</option>
+		<option value="Categories">Categories</option>
+		<option value="Deals Carousel">Deals Carousel</option>
+		</select>
+		<br>
+		<br>
+		
+		<h2>How often do you use the website?</h2><br>
+		<select id="favorite">
+			<option value="Daily" selected="selected">Daily</option>
+			<option value="Weekly">Weekly</option>
+			<option value="Monthly">Monthly</option>
+		</select>
+	</div>
+	
+	<br>
+	<br>
+		
+	Comments:<br>
+	<textarea placeholder="Please enter your feedback, we would like to hear from you.." rows="5" cols="70"></textarea>
+			
+	<br>
+	<br>
+			
+	<button id="submitButton" type="button" class="block">
+		SUBMIT your questionnaire
+	</button>
+		
+	<p id="signature">Site created by Caroline Barrière</p>	
+	
+	</form>
+  </body>
+</html> 

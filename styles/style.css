@@ -1,0 +1,17 @@
+body {
+    background-color: #790888;
+    font-family: "Oswald", serif;
+    text-align: center;
+    font-size: 20px;
+}
+
+header h1 {
+    font-size: 70px;
+    font-weight: 600;
+    color: #c56ed0;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+h1 {
+}
